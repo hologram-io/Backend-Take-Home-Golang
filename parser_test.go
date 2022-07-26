@@ -68,7 +68,7 @@ func TestUsageParser(t *testing.T) {
 			}
 			var expected []*UsageResult = []*UsageResult{
 				NewExtendedUsage(4, 495594, 214, "0d39f", 0),
-				NewHexUsage(16, 129291, 192, net.ParseIP("99.229.230.61"), 48771),
+				NewHexUsage(16, 12921, 192, net.ParseIP("99.229.230.61"), 48771),
 				NewBasicUsage(9991, 2935),
 			}
 
